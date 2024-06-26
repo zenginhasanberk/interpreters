@@ -1,0 +1,27 @@
+# Ignore JetBrains IDE project files
+.idea/
+
+# Ignore CMake build artifacts
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+
+# Ignore specific build directories
+/c/dll/cmake-build-debug/
+
+# Ignore compiled binary files
+*.out
+*.o
+*.so
+*.dll
+*.exe
+
+# Ignore temporary files
+*.tmp
+*.log
+
+# Ignore other system-specific files
+.DS_Store
+Thumbs.db
+
